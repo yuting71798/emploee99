@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "firstName": "茶六燒肉堂 公益店",
+    "lastName": "King",
+    "pic": "1.jpg",
+    "contact number": "04-2328-1167",
+    "address": "台中市西區公益路268號",
+    "business hours": "11:00~02:00",
+    "Introduction": "茶六的價位以雙人套餐及三人套餐為主，主要以肉類及海鮮為主，如果想要吃青菜的話必須另外單點或是以原本套餐內的沙拉、湯品都可以換成單點菜色。可以換的單點菜色包含豬五花肉、玉米筍及杏鮑菇。",
+    "area": "西屯區",
+    "picture": "1.jpg"
+  },
+  {
+    "id": 2,
+    "firstName": "瑰覓",
+    "lastName": "Taylor",
+    "pic": "2.jpg",
+    "contact number": "04-2452-1305",
+    "address": "台中市西屯區文華路215號2F",
+    "business hours": "11:00~15:30、17:00~21:00 週一公休",
+    "Introduction": "餐點用料很實在還可免費加麵加飯，免服務費未客滿不限時CP值很高，假日經常客滿，建議先訂位才不會久等。店內有整面的黑膠復古唱片，充滿懷舊氣氛。",
+    "area": "西屯區",
+    "picture": "2.jpg"
+  },
+  {
+    "id": 3,
+    "firstName": "Mr.Pa帕先生 南洋料理 台中大墩店",
+    "lastName": "Lee",
+    "pic": "3.jpg",
+    "contact number": "04-2326-5909",
+    "address": "台中市西屯區大墩十九街95號",
+    "business hours": "11:00-14:30、17:30-21:00",
+    "Introduction": "走的是平價消費奢華的享受，主打海鮮特色料理，餐點同時滿足吃辣以及不吃辣的朋友。另外店內裝潢非常網美風，很適合三五好友或是家同聚會吃飯的場所。",
+    "area": "西屯區",
+    "picture": "3.jpg"
+  },
+  {
+    "id": 4,
+    "firstName": "人家是女生",
+    "lastName": "Williams",
+    "pic": "4.jpg",
+    "contact number": "04-2452-4780",
+    "address": "台中市西屯區上仁街113號",
+    "business hours": "08:00~16:00",
+    "Introduction": "是由二十年老屋新生，賣創意吐司早午餐為主。裝潢上融入富士山造型的鐵花窗、馬賽克磚、彩色燈飾，極具有特色的設計，空間氛圍很好的風格小店。",
+    "area": "西屯區",
+    "picture": "4.jpg"
+  },
+  {
+    "id": 5,
+    "firstName": "古猗園灌湯包",
+    "lastName": "Moore",
+    "pic": "5.jpg",
+    "contact number": "04-2311-0560",
+    "address": "台中市西屯區漢口路一段71號",
+    "business hours": "17:00~01:00",
+    "Introduction": "店裡的用餐空間寬敞又舒適，裝潢走復古風，湯包的肉餡堅持使用當天新鮮的溫體豬打成絞肉再加上青蔥調味，裡頭再加上放大版的蝦仁，除了豬肉的鮮甜外，還多了蝦子的鮮甜及清脆的口感，層次超豐富。",
+    "area": "西屯區",
+    "picture": "5.jpg"
+  },
+  {
+    "id": 6,
+    "firstName": "opus67",
+    "lastName": "Jones",
+    "pic": "6.jpg",
+    "contact number": "04-2235-6997",
+    "address": "台中市北區北興街67號",
+    "business hours": "10:00~19:00",
+    "Introduction": "Opus67的早午餐不僅擺盤好看，食材和口味上也都非常注重，完全沒有加工品，吃下來除了很有飽足感也兼具健康，不過因為生意很好，要有必須候位一段時間的預期心理才不覺得等太久。",
+    "area": "中區",
+    "picture": "6.jpg"
+  },
+  {
+    "id": 7,
+    "firstName": "谷地Goody",
+    "lastName": "Gates",
+    "pic": "7.jpg",
+    "contact number": "04-2221-1259",
+    "address": "台中市中區仁愛街13巷1號",
+    "business hours": "11:00~20:00；週二公休",
+    "Introduction": "是間擁有庭院的獨棟咖啡廳，房子周遭種滿各種植栽和蕨類，有著寧靜悠閒的舒適氛圍，讓人暫時遠離都市喧囂，二樓以選品區為主，空間十分高挑明亮，傢俱帶點復古小華麗氛圍。",
+    "area": "中區",
+    "picture": "7.jpg"
+  },
+  {
+    "id": 8,
+    "firstName": "麵屋hiro日新店",
+    "lastName": "Wong",
+    "pic": "8.jpg",
+    "contact number": "0985-278-868",
+    "address": "台中市中區民族路198號",
+    "business hours": "週二~週四12:00~14:00 17:00~22:00  週五週六 12:00~23:00  週日12:00~22:00 (週一公休)",
+    "Introduction": "麵屋HIRO日新店每一碗拉麵都有叉燒肉、溏心蛋、炸雲吞，料多味美加上濃郁湯頭，無限續加手工拉麵吃到飽，內用座位不多，沒有浮誇華麗的裝潢，整個環境簡約卻乾淨明亮。",
+    "area": "中區",
+    "picture": "8.jpg"
+  },
+  {
+    "id": 9,
+    "firstName": "阿月壽司",
+    "lastName": "Donovan",
+    "pic": "9.jpg",
+    "contact number": "0980-370-508",
+    "address": "台中市中區三民路二段87號(第二市場內)",
+    "business hours": "週二~週日08:00~14:00 (週一公休)",
+    "Introduction": "雖然只是一個攤位，但是非常乾淨整潔，壽司種類也非常豐富，壽司米飯非常好吃，軟硬式中不會乾硬，涼麵色彩豐富、很有層次感，口感也非常清爽。",
+    "area": "中區",
+    "picture": "9.jpg"
+  },
+  {
+    "id": 10,
+    "firstName": "頂吉古早味火雞肉飯",
+    "lastName": "Byrne",
+    "pic": "10.jpg",
+    "contact number": "04-2223-8667",
+    "address": "台中市中區三民路三段57號",
+    "business hours": "10:30~16:30",
+    "Introduction": "店家有別一般火雞肉飯，特色是火雞肉片飯，雞肉給整片讓客人爽吃無誤，不論是外帶或是內用都可以享有免費可續碗的味噌湯。",
+    "area": "中區",
+    "picture": "10.jpg"
+  }
+]
