@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "firstName": "茶六燒肉堂 公益店",
+    "pic": "1.jpg",
+    "contact number": "04-2328-1167",
+    "address": "台中市西區公益路268號",
+    "business hours": "11:00~02:00",
+    "picture": "1.jpg"
+  },
+  {
+    "id": 2,
+    "firstName": "瑰覓",
+    "pic": "2.jpg",
+    "contact number": "04-2452-1305",
+    "address": "台中市西屯區文華路215號2F",
+    "business hours": "11:00~15:30、17:00~21:00 週一公休",
+    "picture": "2.jpg"
+  },
+  {
+    "id": 3,
+    "firstName": "Mr.Pa帕先生 南洋料理 台中大墩店",
+    "pic": "3.jpg",
+    "contact number": "04-2326-5909",
+    "address": "台中市西屯區大墩十九街95號",
+    "business hours": "11:00-14:30、17:30-21:00",
+    "picture": "3.jpg"
+  },
+  {
+    "id": 4,
+    "firstName": "人家是女生",
+    "pic": "4.jpg",
+    "contact number": "04-2452-4780",
+    "address": "台中市西屯區上仁街113號",
+    "business hours": "08:00~16:00",
+    "picture": "4.jpg"
+  },
+  {
+    "id": 5,
+    "firstName": "古猗園灌湯包",
+    "pic": "5.jpg",
+    "contact number": "04-2311-0560",
+    "address": "台中市西屯區漢口路一段71號",
+    "business hours": "17:00~01:00",
+    "picture": "5.jpg"
+  },
+  {
+    "id": 6,
+    "firstName": "opus67",
+    "pic": "6.jpg",
+    "contact number": "04-2235-6997",
+    "address": "台中市北區北興街67號",
+    "business hours": "10:00~19:00",
+    "picture": "6.jpg"
+  },
+  {
+    "id": 7,
+    "firstName": "谷地Goody",
+    "pic": "7.jpg",
+    "contact number": "04-2221-1259",
+    "address": "台中市中區仁愛街13巷1號",
+    "business hours": "11:00~20:00；週二公休",
+    "picture": "7.jpg"
+  },
+  {
+    "id": 8,
+    "firstName": "麵屋hiro日新店",
+    "pic": "8.jpg",
+    "contact number": "0985-278-868",
+    "address": "台中市中區民族路198號",
+    "business hours": "週二~週四12:00~14:00 17:00~22:00\n週五週六 12:00~23:00 週日12:00~22:00 (週一公休)",
+    "picture": "8.jpg"
+  },
+  {
+    "id": 9,
+    "firstName": "阿月壽司",
+    "pic": "9.jpg",
+    "contact number": "0980-370-508",
+    "address": "台中市中區三民路二段87號(第二市場內)",
+    "business hours": "週二~週日08:00~14:00 (週一公休)",
+    "picture": "9.jpg"
+  },
+  {
+    "id": 10,
+    "firstName": "頂吉古早味火雞肉飯",
+    "pic": "10.jpg",
+    "contact number": "04-2223-8667",
+    "address": "台中市中區三民路三段57號",
+    "business hours": "10:30~16:30",
+    "picture": "10.jpg"
+  }
+]
