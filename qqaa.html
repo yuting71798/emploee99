@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://jqmdesigner.appspot.com/gk/lib/jquery.mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    $(document).on("mobileinit", function () {
+      $.mobile.autoInitializePage = false;
+      $.mobile.hashListeningEnabled = false;
+    });
+
+    function mobileInitPage() {
+      $.mobile.hashListeningEnabled = true;
+      $.mobile.initializePage();
+    };
+  </script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!-- Uncomment the following to include cordova in your android project -->
+  <!--<script src="https://jqmdesigner.appspot.com/platforms/android/cordova.js"></script>-->
+  <!-- GK Loader use RequireJS to load module -->
+  <script src="https://requirejs.org/docs/release/2.1.11/minified/require.js"></script>
+  <!--Plug in GK-->
+  <script src="https://jqmdesigner.appspot.com/components/jquery.gk/jquery.gk.min.js"></script>
+  <!-- Load GK components -->
+  <script components="https://jqmdesigner.appspot.com/components/gk-ext/image.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/content.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/page.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/button.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/footer.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/listview.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/listview-li.html,https://jqmdesigner.appspot.com/components/gk-jquerymobile/header.html,https://jqmdesigner.appspot.com/components/gk-ext/json-listview.html"
+  callback="mobileInitPage" src="https://jqmdesigner.appspot.com/components/gk-loader/gk-loader.js"></script>
+  <!-- Export JS  -->
+  <script>
+    $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-515xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-515xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-515xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+
+
+    $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-511xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-511xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-511xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img1').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+
+    $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-512xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-512xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-512xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img2').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+
+
+
+    $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-513xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-513xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-513xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img4').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+
+    $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-514xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-514xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-514xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img5').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+	
+	  $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-516xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-516xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-516xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img6').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+	 $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-517xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-517xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-517xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img7').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+	 $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-518xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-518xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-518xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img8').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+	 $(document).on("pageinit", "#home", function () {
+      var $ele = $("#gk-519xhnb"),
+        url = $ele.attr("service");
+      if (url) {
+        $.getJSON(url).complete(function (data) {
+          $("#gk-519xhnb").gk("model", $.parseJSON(data.responseText));
+
+          $('#gk-519xhnb a').on('click', function (e) {
+            var g1 = $(this).attr('s1');
+            var g2 = $(this).attr('s2');
+            var g3 = $(this).attr('s3');
+            var g4 = $(this).attr('s4');
+            var g5 = $(this).attr('s5');
+            var g6 = $(this).attr('s6');
+            $('.d1').text(g1);
+            $('.d2').text(g2);
+            $('.d3').text(g3);
+            $('.d4').text(g4);
+            $('.d5').text(g5);
+            $('.d6').text(g6);
+            //$('#map1').gk('address', g2);
+            $('#img9').attr('src', g6);
+          });
+
+
+
+        });
+      }
+    });
+	
+  </script>
+  <title>EZo App</title>
+</head>
+
+<body gk-app>
+  <!-- Page: home  -->
+  <div is="page" id="home" data-role="page">
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>台中美食</h3>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail">太平區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail2">北區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail3">中區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail4">東區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail5">西區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail7">南區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail6">北屯區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail8">西屯區</a>
+        </li>
+      </ul>
+      <ul is="listview" data-role="listview" data-inset="true">
+        <li is="listview-li">
+          <a href="#detail9">南屯區</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail  -->
+  <div id="detail" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>太平區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-515xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q1.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail2  -->
+  <div id="detail2" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>北區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-511xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q7.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new2" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail3  -->
+  <div id="detail3" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>中區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-512xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q8.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new3" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail4  -->
+  <div id="detail4" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>東區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-513xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q5.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new4" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+   <!-- Page: detail5  -->
+  <div id="detail5" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>西區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-514xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q4.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new5" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail6  -->
+  <div id="detail6" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>北屯區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-516xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q2.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new6" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: detail7  -->
+  <div id="detail7" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>南區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-517xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q9.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new7" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+    <!-- Page: detail8  -->
+  <div id="detail8" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>西屯區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-518xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q33.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new8" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+      <!-- Page: detail9  -->
+  <div id="detail9" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>南屯區</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <ul id="gk-519xhnb" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://yuting71798.github.io/emploee99/q6.json" data-divider-theme="b">
+        <li is="listview-li">
+          <a href="#new9" s1="{{firstName}}" s2="{{contact number}}" s3="{{address}}" s4="{{business hours}}" s5="{{Introduction}}" s6="https://yuting71798.github.io/emploee99/pccccc/{{picture}}">
+            <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/{{picture}}" is="image">{{firstName}}</a>
+        </li>
+      </ul>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: new  -->
+  <div id="new" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+	   <div is="grid" class="ui-grid-a" style="height:˙70px">
+      <div is="block" class="ui-block-a" style="height:100%">
+        <a is="button" class="ui-btn" href="https://yuting71798.github.io/emploee99/shopping22/shopping22/we22.html" data-rel="external">點餐</a>
+        
+      </div>
+      <div is="block" class="ui-block-b" style="height:100%">
+        <a is="button" class="ui-btn">餐廳照片</a>
+      </div>
+    </div>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: new2  -->
+  <div id="new2" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img1">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: new3  -->
+  <div id="new3" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img2">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: new4  -->
+  <div id="new4" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img4">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  <!-- Page: new5  -->
+  <div id="new5" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img5">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+   <!-- Page: new6  -->
+  <div id="new6" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img6">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+    <!-- Page: new7  -->
+  <div id="new7" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img7">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+    <!-- Page: new8  -->
+  <div id="new8" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img8">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+     <!-- Page: new9  -->
+  <div id="new9" data-role="page" is="page">
+    <div role="main" class="ui-content" is="content"></div>
+    <div is="header" data-role="header" data-position="fixed" data-theme="b">
+      <h3>餐廳資訊</h3>
+      <a is="button" class="ui-btn ui-btn-left" data-rel="back">上一頁</a>
+      <a is="button" class="ui-btn ui-btn-right" data-rel="back">上一頁</a>
+    </div>
+    <div is="content" role="main" class="ui-content">
+      <img style="width:100%;" src="https://yuting71798.github.io/emploee99/pccccc/1.jpg" is="image" id="img9">
+      <h4><mark>店名：</mark><span is="span" class="d1"></span></h4>
+      <h4><mark>連絡電話：</mark><span is="span" class="d2"></span></h4>
+      <h4><mark>地址：</mark><span is="span" class="d3"></span></h4>
+      <h4><mark>營業時間：</mark><span is="span" class="d4"></span></h4>
+      <h4><mark>簡介：</mark><span is="span" class="d5"></span></h4>
+      <h4><mark>圖片：</mark><span is="span" class="d6"></span></h4>
+    </div>
+    <div is="footer" data-role="footer" data-position="fixed" data-theme="b">
+      <h3>NCUT</h3>
+    </div>
+  </div>
+  
+  
+</body>
+
+</html>
